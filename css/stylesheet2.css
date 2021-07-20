@@ -1,0 +1,170 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(to bottom, rgba(227, 134, 91, 0.8), rgba(64, 105, 103, 0.8)), url(image/homepageImg.jpg);
+	background-size: cover;
+	background-position: top;
+	height: 100vh;
+	position: relative;
+	font-family: "Montserrat", serif;
+}
+
+/* navbar */
+
+.navbar-brand {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5rem;
+}
+
+.nav-item {
+	padding: 0 12px 0 0;
+}
+
+.nav-link {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+	font-size: 0.75em;
+	color: #999;
+	top: -5px;
+	-webkit-transition: all 0.225s ease;
+	transition: all 0.225s ease;
+}
+
+.styled-input {
+	float: left;
+	width: 293px;
+	margin: 1rem 0;
+	position: relative;
+	border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+	.styled-input {
+		width: 100%;
+	}
+}
+
+.styled-input label {
+	color: #999;
+	padding: 1.3rem 30px 1rem 30px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+	pointer-events: none;
+}
+
+.styled-input.wide {
+	width: 650px;
+	max-width: 100%;
+}
+
+input,
+textarea {
+	padding: 30px;
+	border: 0;
+	width: 100%;
+	font-size: 1rem;
+	background-color: #2d2d2d;
+	color: white;
+	border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+	outline: 0;
+}
+
+input:focus ~ span,
+textarea:focus ~ span {
+	width: 100%;
+	-webkit-transition: all 0.075s ease;
+	transition: all 0.075s ease;
+}
+
+textarea {
+	width: 100%;
+	min-height: 15em;
+}
+
+.input-container {
+	width: 650px;
+	max-width: 100%;
+	margin: 20px auto 25px auto;
+}
+
+.heading {
+	text-align: center;
+	font-size: 2em;
+	padding: 10px;
+	color: white;
+}
+
+.big-button {
+	text-align: center;
+	padding: 15px;
+}
+
+.button:hover {
+	background-color: #e49e7d;
+}
+
+#slider {
+	width: 100%;
+}
+
+.carousel-caption h2 {
+	color: #fff;
+	font-size: 32px;
+}
+
+.button {
+	background-color: #f5ebde;
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.navbar-nav > li {
+	padding-left: 15px;
+}
+
+ul {
+	margin-right: 25px;
+}
+.table-info,
+.table-info > td,
+.table-info > th {
+	background-color: #e49e7d;
+}
+.table-responsive {
+	margin-top: 40px;
+}
+
+.btn1 {
+	background: #486e6c;
+	display: block;
+	color: #f5ebde;
+	font-size: 20px;
+	padding: 15px 30px;
+	border-radius: 30px;
+	border-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}

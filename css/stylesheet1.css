@@ -1,0 +1,193 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(to bottom, rgba(227, 134, 91, 0.8), rgba(64, 105, 103, 0.8)), url(../image/homepageImg.jpg);
+	background-size: cover;
+	background-position: top;
+	height: 100vh;
+	position: relative;
+	font-family: "Montserrat", serif;
+}
+
+/* navbar */
+
+.navbar-brand {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5rem;
+}
+
+.nav-item {
+	padding: 0 12px 0 0;
+}
+
+.nav-link {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.hero-content {
+	font-family: "Poppins", Arial, Helvetica, sans-serif;
+	color: #f5ebde;
+	text-align: center;
+	padding-top: 4rem;
+}
+
+.home-heading {
+	font-weight: 500;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.home-para {
+	padding-top: 2rem;
+}
+
+.get-started {
+	border-radius: 0.5rem;
+	padding: 1rem 2rem;
+	font-size: 162%;
+	background-color: #ff8a65;
+	color: #ff8a65;
+	transition: 0.3s;
+}
+
+.get-started:hover {
+	text-decoration: none;
+	background-color: #486e6c;
+}
+
+.get-started-content {
+	height: 60vh;
+	background-color: #ff8a65;
+	border-radius: 42rem;
+}
+
+.get-started-content .row {
+	padding: 25vh 0;
+}
+
+.get-started-content a {
+	border-radius: 0.5rem;
+	padding: 1rem 2rem;
+	font-size: 162%;
+	background-color: #ff8a65;
+	color: #f5ebde;
+	transition: 0.3s;
+}
+
+.get-started-content a:hover {
+	background-color: #ff8a65;
+	text-decoration: none;
+}
+
+.btn1 {
+	background: #486e6c;
+	display: inline-block;
+	color: #f5ebde;
+	padding: 8px 30px;
+	margin: 30px 10px;
+	border-radius: 10px;
+	border-style: none;
+	text-decoration: none;
+}
+
+/* ------ LOGIN ------- */
+
+section .loginContent {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 50%;
+	height: 80%;
+	margin-top: 2rem;
+}
+
+section .loginContent .formBody {
+	width: 80%;
+}
+
+section .loginContent .formBody h2 {
+	color: #e3865b;
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+section .loginContent .formBody .form-group {
+	color: #486e6c;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+section .loginContent .formBody .form-group .form-control {
+	background: transparent;
+	border-radius: 30px;
+	border: 1px solid #486e6c;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 5px 0;
+	padding: 10px 20px;
+	width: 25rem;
+}
+
+section .loginContent .formBody .btn3 {
+	background: #e3865b;
+	border-radius: 50px;
+	border: none;
+	color: #f5ebde;
+	cursor: pointer;
+	font-weight: 500;
+	margin: 5px 0;
+	padding: 9px 24px;
+}
+
+section .loginContent .formBody .login-btn {
+	text-decoration: none;
+	color: #f5ebde;
+}
+
+/* CUSTOMERS */
+
+.my-balance {
+	padding: 2rem 5rem;
+	color: #f5ebde;
+}
+
+.modal-dialog {
+	margin-top: 50px;
+}
+
+.table-main {
+	background: #486e6c;
+	color: #f5ebde;
+}
+
+.table-even {
+	background: #e3865b;
+}
+
+.table-odd {
+	background: #f3f1f1;
+}
+
+.btn {
+	background: #486e6c;
+	display: block;
+	color: #f5ebde;
+	font-size: 20px;
+	padding: 15px 30px;
+	border-radius: 30px;
+	border-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
